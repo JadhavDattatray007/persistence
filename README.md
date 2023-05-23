@@ -4,18 +4,18 @@
   http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 
-	<persistence-unit name="Ajju">
+	<persistence-unit name="AJAY">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/amezon" />
+				value="jdbc:mysql://localhost:3306/****" />
 			<property name="javax.persistence.jdbc.user"
-				value="root" />
+				value="****" />
 			<property name="javax.persistence.jdbc.password"
-				value="ajju" />
+				value="****" />
 			<property name="hibernate.show_sql" value="true" />
 
 
